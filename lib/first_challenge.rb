@@ -20,7 +20,7 @@ def first_challenge
   data.each do |attributes, value|
     
   if attribute == :favorite_icecream_flavors
-  
+  value.delete_if |flavor| flavor == "strawberry"
   
   #remember to return your newly altered contacts hash!
   contacts

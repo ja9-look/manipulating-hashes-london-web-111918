@@ -17,6 +17,6 @@ def first_challenge
   contact["Freddy Mercury"][:favorite_icecream_flavors].unshift
 
   #remember to return your newly altered contacts hash!
-  contacts["Jon Snow"]
+  contacts["Freddy Mercury"][:favorite_icecream_flavors]
 end
 
